@@ -16,7 +16,7 @@
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#303030</string>
 				<key>invisibles</key>
 				<string>#B3B3B3F4</string>
 				<key>lineHighlight</key>
@@ -62,7 +62,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, variable.language, storage.type.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -93,9 +93,31 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function name</string>
+			<string>entity name function</string>
 			<key>scope</key>
 			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#606060</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity name method</string>
+			<key>scope</key>
+			<string>entity.name.method</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity name class</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
