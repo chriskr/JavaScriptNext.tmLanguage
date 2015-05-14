@@ -532,7 +532,7 @@
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>6</key>
 						<dict>
@@ -586,7 +586,7 @@
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>6</key>
 						<dict>
@@ -638,7 +638,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -682,7 +682,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -1283,7 +1283,7 @@
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>6</key>
 						<dict>
@@ -1342,7 +1342,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -1439,7 +1439,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>2</key>
 						<dict>
@@ -1525,7 +1525,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.js</string>
+							<string>entity.name.method.js</string>
 						</dict>
 						<key>4</key>
 						<dict>

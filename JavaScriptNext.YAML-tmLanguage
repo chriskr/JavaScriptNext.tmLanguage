@@ -316,7 +316,7 @@ repository:
         '2': {name: keyword.operator.accessor.js}
         '3': {name: variable.language.prototype.js}
         '4': {name: keyword.operator.accessor.js}
-        '5': {name: entity.name.function.js}
+        '5': {name: entity.name.method.js}
         '6': {name: storage.type.js}
         '7': {name: storage.type.function.js}
         '8': {name: keyword.generator.asterisk.js}
@@ -338,7 +338,7 @@ repository:
       beginCaptures:
         '1': {name: entity.name.class.js}
         '2': {name: keyword.operator.accessor.js}
-        '3': {name: entity.name.function.js}
+        '3': {name: entity.name.method.js}
         '4': {name: storage.type.js}
         '5': {name: storage.type.function.js}
         '6': {name: keyword.generator.asterisk.js}
@@ -359,7 +359,7 @@ repository:
           \s*(function)(?:\s*(\*)|(?=\s|[(]))
           \s*([_$a-zA-Z][$\w]*)?\s*
       beginCaptures:
-        '1': {name: entity.name.function.js}
+        '1': {name: entity.name.method.js}
         '2': {name: punctuation.separator.key-value.js}
         '3': {name: storage.type.js}
         '4': {name: storage.type.function.js}
@@ -384,7 +384,7 @@ repository:
       beginCaptures:
         '1': {name: string.quoted.single.js}
         '2': {name: punctuation.definition.string.begin.js}
-        '3': {name: entity.name.function.js}
+        '3': {name: entity.name.method.js}
         '4': {name: punctuation.definition.string.end.js}
         '5': {name: string.quoted.double.js}
         '6': {name: punctuation.definition.string.begin.js}
@@ -472,7 +472,7 @@ repository:
         '2': {name: keyword.operator.accessor.js}
         '3': {name: variable.language.prototype.js}
         '4': {name: keyword.operator.accessor.js}
-        '5': {name: entity.name.function.js}
+        '5': {name: entity.name.method.js}
         '6': {name: storage.type.js}
       end: (?<=\))\s*(=>)
       endCaptures:
@@ -495,7 +495,7 @@ repository:
         '2': {name: keyword.operator.accessor.js}
         '3': {name: variable.language.prototype.js}
         '4': {name: keyword.operator.accessor.js}
-        '5': {name: entity.name.function.js}
+        '5': {name: entity.name.method.js}
         '6': {name: storage.type.js}
         '7': {name: variable.parameter.function.js}
         '8': {name: storage.type.function.arrow.js}
@@ -512,7 +512,7 @@ repository:
       beginCaptures:
         '1': {name: entity.name.class.js}
         '2': {name: keyword.operator.accessor.js}
-        '3': {name: entity.name.function.js}
+        '3': {name: entity.name.method.js}
         '4': {name: storage.type.js}
       end: (?<=\))\s*(=>)
       endCaptures:
@@ -532,7 +532,7 @@ repository:
       captures:
         '1': {name: entity.name.class.js}
         '2': {name: keyword.operator.accessor.js}
-        '3': {name: entity.name.function.js}
+        '3': {name: entity.name.method.js}
         '4': {name: storage.type.js}
         '5': {name: variable.parameter.function.js}
         '6': {name: storage.type.function.arrow.js}
